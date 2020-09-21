@@ -1,6 +1,6 @@
  --[[
  Original Assembly MTristana by Mistal
- Reworked by XOXO92 : 
+ Reworked by OKOK92 : 
  + Updated to work with the new version of Robur 
  + Added Menu 
  + Added AutoJump
