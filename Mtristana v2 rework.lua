@@ -120,7 +120,7 @@ end
 
 function OnLoad() 
 	if Player.CharName ~= "Tristana" then return false end 
-	Game.PrintChat("MTristana V2 by X0X092")
+	Game.PrintChat("MTristana V2 by OKOK92")
 	EventManager.RegisterCallback(Enums.Events.OnTick, OnTick)
 	return true
 end
