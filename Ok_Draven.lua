@@ -90,7 +90,7 @@ local function AutoR()
 		local hero = obj.AsHero        
 		if hero and hero.IsTargetable then
 			local dist = myPos:Distance(hero.Position)
-			if getRdmg(hero) > (hero.Health) then				
+			if getRdmg(hero) > (hero.Health)  and dist <= 4000 then				
 				Input.Cast(SpellSlots.R, hero.Position) -- R KS        
 			end
 		end		
