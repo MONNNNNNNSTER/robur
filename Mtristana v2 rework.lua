@@ -95,7 +95,7 @@ local function AutoJump()
 		local hero = obj.AsHero        
 		if hero and hero.IsTargetable then
 			local dist = myPos:Distance(hero.Position)
-			if dist > myRange and getAAdmg(hero) > (hero.Health) then				
+			if dist <= Player.BoundingRadius and getAAdmg(hero) > (hero.Health) then				
 				Input.Cast(_W, hero.Position)  
 			end				
 		end		
