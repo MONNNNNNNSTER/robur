@@ -74,7 +74,7 @@ local function Combo_E()
 		local hero = obj.AsHero        
 		if hero and hero.IsTargetable then
 			local dist = myPos:Distance(hero.Position)
-			if dist <= 1050 then				
+			if dist <= 950 then				
 				Input.Cast(_E, hero.Position)  
 			end				
 		end		
