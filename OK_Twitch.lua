@@ -93,9 +93,9 @@ local function getEdmg(target)
 end
 
 local function getAAdmg(target)
-	local TristAD = Player.TotalAD
+	local TwitchAD = Player.TotalAD
 	local EnemArmor = Player.Armor + Player.BonusArmor
-	return TristAD - EnemArmor
+	return TwitchAD - EnemArmor
 end
 
 local function UseBotrk(target)	
