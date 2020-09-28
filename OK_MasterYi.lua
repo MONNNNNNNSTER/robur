@@ -89,7 +89,7 @@ end
 
 local function Combo_W()
 	-- Heal with W at 30%
-	if Player.Health <= (Player.MaxHealth * 0.3) and Player:GetSpellState(SpellSlots.W) == SpellStates.Ready and and Player:GetSpellState(SpellSlots.Q) ~= SpellStates.Ready then
+	if Player.Health <= (Player.MaxHealth * 0.3) and Player:GetSpellState(SpellSlots.W) == SpellStates.Ready and Player:GetSpellState(SpellSlots.Q) ~= SpellStates.Ready then
 		Input.Cast(SpellSlots.W)
 	end
 end
